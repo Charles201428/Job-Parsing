@@ -70,4 +70,3 @@ Here is the webpage content:
     
     return job_details
 
-
