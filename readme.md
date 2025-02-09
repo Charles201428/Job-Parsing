@@ -51,3 +51,22 @@ On macOS/Linux:
 python3 -m venv env
 source env/bin/activate
 pip install -r requirements.txt
+
+
+**3. Setup Environment Variables:**
+
+Create a .env file in the project root (if it doesn't exist) and add your OpenAI API key:
+OPENAI_API_KEY=your_openai_api_key_here
+Note: The .env file is included in the .gitignore so that your sensitive information is not pushed to your repository.
+
+
+
+## Usage
+
+**1. Start the Streamlit Web App:**
+Run in terminal: 
+streamlit run app.py
+
+
+**2. Using the Web Interface:**
+
