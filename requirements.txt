@@ -4,3 +4,4 @@ beautifulsoup4
 openai
 pdfminer.six
 python-docx
+python-dotenv
