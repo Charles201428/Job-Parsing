@@ -43,8 +43,9 @@ You are an expert job posting analyzer. Given the following webpage text extract
 please extract the relevant job details and return the output in valid JSON format with the following keys:
 
 - "title": The job title.
-- "description": A concise summary of the job description.
-- "key_points": A list of any additional key points or requirements mentioned.
+- "responsibility": A concise summary of what the job's expectation on candidate's responsibility.
+- "description": A concise summary of the job description. This should be in great details.
+- "key_points": A list of any additional key points or requirements mentioned. 
 
 Here is the webpage content:
 {text_content}

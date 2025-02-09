@@ -20,7 +20,9 @@ def generate_email(job_details, resume_data):
     prompt = f"""
 You are a professional career advisor. Based on the following job posting and candidate's resume details,
 please craft a concise, engaging, and professional cold outreach email. Highlight the candidate's relevant skills,
-projects, and experiences.
+projects, and experiences. Note that this email is sent from the candidate to the hiring team. 
+You should also add candidate's signature at the end of the email, and the signature (like Best, Charles) can be found in the resume. 
+Make sure this is a relatively succint email within 150 words.
 
 Job Posting:
 - Title: {job_details.get('title', 'N/A')}
